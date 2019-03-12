@@ -12,6 +12,8 @@
 		8266FEE6223850BA00C74468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8266FEE4223850BA00C74468 /* Main.storyboard */; };
 		8266FEE8223850BB00C74468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8266FEE7223850BB00C74468 /* Assets.xcassets */; };
 		8266FEEB223850BB00C74468 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8266FEE9223850BB00C74468 /* LaunchScreen.storyboard */; };
+		8266FEF3223850D900C74468 /* Loc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8266FEF2223850D900C74468 /* Loc.swift */; };
+		8266FEF5223850E900C74468 /* Loc-Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8266FEF4223850E900C74468 /* Loc-Generated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8266FEE7223850BB00C74468 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8266FEEA223850BB00C74468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8266FEEC223850BB00C74468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8266FEF2223850D900C74468 /* Loc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loc.swift; sourceTree = "<group>"; };
+		8266FEF4223850E900C74468 /* Loc-Generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Loc-Generated.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				8266FEE7223850BB00C74468 /* Assets.xcassets */,
 				8266FEE9223850BB00C74468 /* LaunchScreen.storyboard */,
 				8266FEEC223850BB00C74468 /* Info.plist */,
+				8266FEF2223850D900C74468 /* Loc.swift */,
+				8266FEF4223850E900C74468 /* Loc-Generated.swift */,
 			);
 			path = LocalizationTest;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8266FEF5223850E900C74468 /* Loc-Generated.swift in Sources */,
 				8266FEE3223850BA00C74468 /* ViewController.swift in Sources */,
 				8266FEE1223850BA00C74468 /* AppDelegate.swift in Sources */,
+				8266FEF3223850D900C74468 /* Loc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +297,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nxtbgthng.LocalizationTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -307,6 +316,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nxtbgthng.LocalizationTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
